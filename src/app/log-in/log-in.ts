@@ -3,7 +3,6 @@ import { Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { Home } from '../home/home';
 
-
 @Component({
   selector: 'app-birthday-login',
   standalone: true,
@@ -13,7 +12,7 @@ import { Home } from '../home/home';
 })
 export class BirthdayLoginComponent {
   birthdayInput: string = '';
-  validBirthday: string = '2025-10-23';
+  validBirthday: string = '2025-10-30';
 
   constructor(private router: Router) {}
 

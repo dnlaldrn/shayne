@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Contact } from '../contact/contact';
 
 interface CardInfo {
   image: string;
@@ -7,7 +8,7 @@ interface CardInfo {
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [Contact],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

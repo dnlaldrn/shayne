@@ -1,0 +1,14 @@
+<div class="flex justify-center items-center flex-col mt-10">
+  <input
+    type="text"
+    placeholder="Your Response"
+    [(ngModel)]="form.message"
+    class="w-full h-20 border-2 rounded-lg"
+  />
+  <button
+    class="w-50 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 rounded-md transition mt-2"
+    (click)="send()"
+  >
+    Send
+  </button>
+</div>

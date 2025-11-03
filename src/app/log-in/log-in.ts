@@ -12,7 +12,7 @@ import { Home } from '../home/home';
 })
 export class BirthdayLoginComponent {
   birthdayInput: string = '';
-  validBirthday: string = '2025-10-30';
+  validBirthday: string = '2004-11-04';
 
   constructor(private router: Router) {}
 
